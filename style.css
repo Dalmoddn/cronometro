@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+
+}
+
+.cronometro,
+.temporizador {
+  display: flex;
+  align-items: center;
+}
+
+.cronometro span {
+  font-size: 30px;
+  margin: 0 5px;
+}
+
+.timer input, .timer button {
+  margin: 5px;
+}
+
+.timer button {
+  padding: 5px 10px;
+}
