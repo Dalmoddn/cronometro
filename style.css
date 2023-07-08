@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.514);
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -11,16 +13,37 @@
   height: 100vh;
 }
 
-.header {
+header {
   display: flex;
   align-items: center;
+  border: 1px solid black;
+  justify-content: center;
+  height: 10vh;
+  font-size: 5vh;
+}
 
+main {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  height: 80vh;
+  width: 100vw;
 }
 
 .cronometro,
 .temporizador {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid black;
+}
+
+.cronometro {
+  font-family: 'Seven Segment', sans-serif;
+  color: #008000;
+  background-color: rgba(0, 0, 0, 0.514);
 }
 
 .cronometro span {
@@ -28,7 +51,8 @@
   margin: 0 5px;
 }
 
-.timer input, .timer button {
+.timer input,
+.timer button {
   margin: 5px;
 }
 
