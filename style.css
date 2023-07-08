@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.514);
+  background-color: rgb(20, 20, 20);
 }
 
 .container {
@@ -16,7 +16,6 @@
 header {
   display: flex;
   align-items: center;
-  border: 1px solid black;
   justify-content: center;
   height: 10vh;
   font-size: 5vh;
@@ -37,17 +36,16 @@ main {
   justify-content: center;
   width: 50vw;
   height: 50vh;
-  border: 1px solid black;
 }
 
 .cronometro {
   font-family: 'Seven Segment', sans-serif;
   color: #008000;
-  background-color: rgba(0, 0, 0, 0.514);
+  font-weight: 700;
+  font-size: 20vh;
 }
 
-.cronometro span {
-  font-size: 30px;
+.cronometro span {  
   margin: 0 5px;
 }
 
