@@ -5,3 +5,7 @@ const temporizador = setInterval(()=> {
   if (counter === 5)
     clearInterval(temporizador);
 },1000)
+
+const setTimer = (h,m,s) => {
+  
+}
